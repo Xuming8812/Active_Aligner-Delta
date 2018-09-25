@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<SettingTableGUI.xml>
+  <dgvSetting>
+    <Note>
+	The data are 4 tab deliminated columns in the order: text, section, and value
+	text in [ ] is treated as header
+    </Note>
+    <Data>			
+	[Laser Diode]
+	Default Current (mA)	LaserDiode	DefaultCurrent
+	Min Current (mA)	LaserDiode	MinCurrent
+	Max Current (mA)	LaserDiode	MaxCurrent	
+	Current Step (mA)	LaserDiode	CurrentStep
+	Min Voltage (V) 	LaserDiode	MinVoltage
+	Max Current Error (mA)	LaserDiode	MaxCurrentError
+
+	[Beam Scan]
+	Samples            	BeamScan	Samples
+	Internal Gain     	BeamScan	Gain
+	Sample Freq (Hz)	BeamScan	SampleFrequency
+	Sample Reso (um)	BeamScan	SampleResolution
+
+	[Probe Clamp]
+	FOrce (%)        	ProbeClamp	Force
+	Speed (%)        	ProbeClamp	Speed
+	Open Position (mm)	ProbeClamp	OpenPosition
+
+	[Vacuum CDA]
+	Min Vacuum Change (kPa)	VacuumCda	MinVacuumChange
+    </Data>	    
+  </dgvSetting>
+
+  <dgvForceGauge>
+    <Note>
+	The data are 4 tab deliminated columns in the order: text, section, and value
+	text in [ ] is treated as header
+    </Note>
+    <Data>
+	[Force Gauge]
+	Samples          	zTouchSense	Samples
+	Force Threshold  	zTouchSense	ForceChangeThreshold
+	
+	[Stage Setting]
+	Stage Speed (m/s)      	zTouchSense	Velocity
+	Step Size (mm)    	zTouchSense	StepSize
+	Max Z Move (mm)   	zTouchSense	MaxMove
+
+	[Bond Line Control]
+	Gap for PBS (mm)	zTouchSense	BondLineBS
+	Gap for Lens - Min (mm)	zTouchSense	BondLineLensMin
+	Gap for Lens - Max (mm)	zTouchSense	BondLineLensMax
+
+ 	[Gap after Z Touch]
+	Part Pickup (mm)	zTouchSense	GapForPartPickup
+	Apply Epoxy (mm)	zTouchSense	GapForApplyEpoxy
+	All Others (mm)  	zTouchSense	GapForOther
+
+	[Post Epoxy Move back]
+	Stage Speed (m/s)  	zSlowMove	Velocity
+	Step Size (mm)  	zSlowMove	StepSize
+	Step Count      	zSlowMove	StepCount
+	Step Delat (ms)  	zSlowMove	StepDelay
+
+    </Data>
+
+  </dgvForceGauge>
+
+
+  <dgvAlignment>
+    <Note>
+	The data are 4 tab deliminated columns in the order: text, section, and value
+	text in [ ] is treated as header
+    </Note>
+    <Data>
+	[Requirement]
+	Max Delta Y (mm)	Alignment	MaxSteeringY
+	Max Delat Z (mm)	Alignment	MaxSteeringZ
+	Minimum Y (mm)  	Alignment	MinY
+	Maximum Y (mm)    	Alignment	MaxY
+	Minimum Z (mm)   	Alignment	MinX
+	Maximum Z (mm)   	Alignment 	MaxX
+	Minimum Power    	Alignment	MinPower
+	Maximum Power    	Alignment	MaxPower
+
+	[Stage Setting]
+	Speed (m/s)       	Alignment	StageSpeed
+	Step Size X Coarse (mm)	Alignment	StageStepX
+	Step Size X Fine (mm)	Alignment	StageStepFineX
+	Max X Move (mm)   	Alignment	MaxStageMoveX
+	Max Y Move (mm)   	Alignment	MaxStageMoveY
+	Max Z Move (mm)   	Alignment	MaxStageMoveZ
+	Max Angle Move (mm)	Alignment	MaxStageMoveAngle
+
+	[Beam Data]
+	PBS Angle Coef (Deg/mm)	Alignment	AngleCoef
+	Forcal Legth (mm)	Alignment	FocalLength
+	L Near to Lens (mm)	Alignment	BeamScanXOffset
+	Position List (mm)	Alignment	BeamScanXList
+	
+	[Post Epoxy Adjustment]
+	Max Movement (mm)	Alignment	PostEpoxyMaxMove
+	Step Size (mm)     	Alignment	PostEpoxyStepSize
+    </Data>
+
+  </dgvAlignment>
+  
+</SettingTableGUI.xml>

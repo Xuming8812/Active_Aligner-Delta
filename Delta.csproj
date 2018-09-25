@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50FD716B-621A-4B24-9330-4CCBFA792CDD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Delta</RootNamespace>
+    <AssemblyName>Delta</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.NanoScan, Version=1.49.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.NanoScan.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="NationalInstruments.Common, Version=13.0.40.188, Culture=neutral, PublicKeyToken=dc6ad606294fc298, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NationalInstruments.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="NationalInstruments.NI4882, Version=9.0.40.157, Culture=neutral, PublicKeyToken=dc6ad606294fc298, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NationalInstruments.NI4882.dll</HintPath>
+    </Reference>
+    <Reference Include="PI_GCS2_DLL_Class, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\PI_GCS2_DLL_Class.dll</HintPath>
+    </Reference>
+    <Reference Include="Spiricon.BeamGage.Automation, Version=5.11.4776.7086, Culture=neutral, PublicKeyToken=18293b57e84aec4b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Spiricon.BeamGage.Automation.dll</HintPath>
+    </Reference>
+    <Reference Include="Spiricon.BeamGage.Automation.Interfaces, Version=5.11.4776.7086, Culture=neutral, PublicKeyToken=18293b57e84aec4b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Spiricon.BeamGage.Automation.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Spiricon.TreePattern, Version=5.11.4776.7086, Culture=neutral, PublicKeyToken=18293b57e84aec4b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Spiricon.TreePattern.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Thorlabs.BP2, Version=5.0.235.1748, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Thorlabs.BP2.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.MotionControl.DeviceManagerCLI, Version=1.14.1.17240, Culture=neutral, PublicKeyToken=c7ec6d6d6e2435e7, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Thorlabs.MotionControl.DeviceManagerCLI.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.MotionControl.GenericMotorCLI, Version=1.14.1.17302, Culture=neutral, PublicKeyToken=c7ec6d6d6e2435e7, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Thorlabs.MotionControl.GenericMotorCLI.dll</HintPath>
+    </Reference>
+    <Reference Include="ThorLabs.MotionControl.KCube.DCServoCLI, Version=1.14.1.17767, Culture=neutral, PublicKeyToken=c7ec6d6d6e2435e7, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ThorLabs.MotionControl.KCube.DCServoCLI.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.PM100D, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Thorlabs.PM100D.dll</HintPath>
+    </Reference>
+    <Reference Include="Thorlabs.PM300, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Thorlabs.PM300.dll</HintPath>
+    </Reference>
+    <Reference Include="w2.basic, Version=1.1.0.1, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\w2.basic.dll</HintPath>
+    </Reference>
+    <Reference Include="w2.DataGridViewHelper, Version=1.3.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\w2.DataGridViewHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="w2.Login, Version=0.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\w2.Login.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BasicFunction\DeltaFunctionAlignment.cs" />
+    <Compile Include="BasicFunction\DeltaFunctionBasic.cs" />
+    <Compile Include="BasicFunction\DeltaFunctionInstrument.cs" />
+    <Compile Include="BasicFunction\DeltaFunctionStage.cs" />
+    <Compile Include="BasicFunction\DeltaFunctionUtility.cs" />
+    <Compile Include="Data\DeltaData.cs" />
+    <Compile Include="Device\iUVCureController.cs" />
+    <Compile Include="Device\iXpsIO.cs" />
+    <Compile Include="Device\iLDD.cs" />
+    <Compile Include="Device\iForceGauge.cs" />
+    <Compile Include="Device\iPowerMeter.cs" />
+    <Compile Include="GUI\fPartTray.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fPartTray.Designer.cs">
+      <DependentUpon>fPartTray.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fLoading.Designer.cs">
+      <DependentUpon>fLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fController.Designer.cs">
+      <DependentUpon>fController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Device\iTcpServer.cs" />
+    <Compile Include="Device\iBeamScan.cs" />
+    <Compile Include="Device\iTecController.cs" />
+    <Compile Include="Device\iPowerSupply.cs" />
+    <Compile Include="Device\iDigitalMultimeter.cs" />
+    <Compile Include="GUI\fMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fMainForm.Designer.cs">
+      <DependentUpon>fMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fJogPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fJogPanel.Designer.cs">
+      <DependentUpon>fJogPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MotorLib\iThorlabsStage.cs" />
+    <Compile Include="MotorLib\iRobotInfo.cs" />
+    <Compile Include="MotorLib\iRobotController.cs" />
+    <Compile Include="MotorLib\iPiGCS2.cs" />
+    <Compile Include="MotorLib\iStageInfo.cs" />
+    <Compile Include="MotorLib\iPiGCS.cs" />
+    <Compile Include="MotorLib\iTaiyoClamp.cs" />
+    <Compile Include="MotorLib\iMotionControllerAbstract.cs" />
+    <Compile Include="MotorLib\iXPS.cs" />
+    <Compile Include="Parameter\DeltaParameter.cs" />
+    <Compile Include="GUI\fFunction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fFunction.Designer.cs">
+      <DependentUpon>fFunction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fMain.Designer.cs">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\fPositionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\fPositionList.Designer.cs">
+      <DependentUpon>fPositionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ProcessEditor\ProcessEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ProcessEditor\ProcessEditor.Designer.cs">
+      <DependentUpon>ProcessEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProcessComand.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Device\TCPIPHelper.cs" />
+    <Compile Include="w2Lib\w2DUT.cs" />
+    <Compile Include="w2Lib\w2Array.cs" />
+    <Compile Include="w2Lib\w2CSVHelper.cs" />
+    <Compile Include="Device\iInstrumentAbstract.cs" />
+    <Compile Include="w2Lib\w2Math.cs" />
+    <Compile Include="w2Lib\w2PeakDetector.cs" />
+    <Compile Include="w2Lib\w2Physics.cs" />
+    <Compile Include="w2Lib\w2String.cs" />
+    <Compile Include="w2Lib\w2Pending.cs" />
+    <EmbeddedResource Include="GUI\fController.resx">
+      <DependentUpon>fController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fFunction.resx">
+      <DependentUpon>fFunction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fLoading.resx">
+      <DependentUpon>fLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fMain.resx">
+      <DependentUpon>fMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fPartTray.resx">
+      <DependentUpon>fPartTray.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fJogPanel.resx">
+      <DependentUpon>fJogPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fMainForm.resx">
+      <DependentUpon>fMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\fPositionList.resx">
+      <DependentUpon>fPositionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ProcessEditor\ProcessEditor.resx">
+      <DependentUpon>ProcessEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,17 @@
+D:\Project\Automation Software Platform\Delta\Delta\Delta\obj\Debug\Delta.csprojResolveAssemblyReference.cache
+D:\Project\Automation Software Platform\Delta\Delta\Delta\obj\Debug\Delta.csproj.Delta.exe.config
+D:\Project\Automation Software Platform\Delta\Delta\Delta\obj\Debug\Delta.fController.resources
+D:\Project\Automation Software Platform\Delta\Delta\Delta\obj\Debug\Delta.fFunction.resources
+D:\Project\Automation Software Platform\Delta\Delta\Delta\obj\Debug\Delta.fMain.resources
+D:\Project\Automation Software Platform\Delta\Delta\Delta\obj\Debug\Delta.Properties.Resources.resources
+D:\Project\Automation Software Platform\Delta\Delta\Delta\obj\Debug\Delta.csproj.GenerateResource.Cache
+D:\Project\Automation Software Platform\Delta\Delta\Delta\obj\Debug\Delta.csproj.CoreCompileInputs.cache
+D:\Project\Automation Software Platform\Delta\Delta\Delta\bin\Debug\Delta.exe.config
+D:\Project\Automation Software Platform\Delta\Delta\Delta\bin\Debug\Delta.exe
+D:\Project\Automation Software Platform\Delta\Delta\Delta\bin\Debug\Delta.pdb
+D:\Project\Automation Software Platform\Delta\Delta\Delta\bin\Debug\Thorlabs.MotionControl.Tools.Common.dll
+D:\Project\Automation Software Platform\Delta\Delta\Delta\bin\Debug\Thorlabs.MotionControl.Tools.Logging.dll
+D:\Project\Automation Software Platform\Delta\Delta\Delta\obj\Debug\Delta.fLoading.resources
+D:\Project\Automation Software Platform\Delta\Delta\Delta\obj\Debug\Delta.MainForm.resources
+D:\Project\Automation Software Platform\Delta\Delta\Delta\obj\Debug\Delta.exe
+D:\Project\Automation Software Platform\Delta\Delta\Delta\obj\Debug\Delta.pdb

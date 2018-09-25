@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<BlackHawkParameter.xml>
+  <MotionTable>
+    <Note>ip
+	Do not change the name of the Axis! It matches those in the software.
+	The Axis number matchs the XPS slot number from 1 to 8
+      </Note>
+    <StageInfo>
+      Name    	Axis	Home	LimitLo	LimitHi	Velocity	Installed
+      StageX   	1	0	-80.0	80.0	10.0	1
+      StageY   	2	0	-80.0	80.0	10.0	1
+      StageZ   	3	0	-50.0	50.0	10.0	1
+      BeamScanX	4	0	0	400.0	40	1
+      BeamScanY	5	0	0	30.0	10	0
+      BeamScanZ	6	0	 0	30.0	10	1
+      Probe   	8	0	0	11.0	10.0	1
+      AngleMain   	22	0	-180.0	180.0	5.0	1
+      AngleHexapod   	36	0	-180.0	180.0	5.0	0      
+    </StageInfo>
+    <ConfiguredPositions>
+	Label	StageX	StageY	StageZ	BeamScanX	BeamScanY	BeamScanZ	AngleMain	AngleHexapod	ProbeClamp
+	Dummy	     NA	     NA	     NA	     NA	     NA	     NA	     NA	     NA	     NA
+	Load Unload	-70.000	 57.635	-37.330	-100.000	     NA	     NA	     NA	     NA	     NA
+	Lens Pickup	 20.513	 18.705	  2.600	     NA	     NA	     NA	     NA	     NA	     NA
+	Bs 1 Pickup	-53.350	 23.500	-14.040	     NA	     NA	     NA	     NA	     NA	     NA
+	Bs 2 Pickup	-53.450	 17.200	-14.040	     NA	     NA	     NA	     NA	     NA	     NA
+	Pbs Pickup	-53.650	 10.200	-14.040	     NA	     NA	     NA	     NA	     NA	     NA
+	Top Camera View	-47.000	 56.930	-37.790	     NA	     NA	     NA	     NA	     NA	     NA
+	Side Camera View	 79.000	-25.000	 12.484	     NA	     NA	     NA	     NA	     NA	     NA
+	Butt Camera View	 79.000	-24.700	 39.934	     NA	     NA	     NA	     NA	     NA	     NA
+	Lens 1 Align	 40.418	 66.387	-12.500	     NA	     NA	     NA	     NA	     NA	     NA
+	Lens 2 Align	 40.812	 65.625	  3.300	     NA	     NA	     NA	     NA	     NA	     NA
+	Lens 3 Align	 40.534	 64.692	  3.487	     NA	     NA	     NA	     NA	     NA	     NA
+	Lens 4 Align	 40.418	 63.387	-12.500	     NA	     NA	     NA	     NA	     NA	     NA
+	Bs 1 Align	 14.810	 -8.870	  1.980	     NA	     NA	     NA	     NA	     NA	     NA
+	Bs 2 Align	 14.810	 -8.870	  1.980	     NA	     NA	     NA	     NA	     NA	     NA
+	Pbs Align	 14.810	 -8.870	  1.980	     NA	     NA	     NA	     NA	     NA	     NA
+	Lens 1 Epoxy	 39.913	 64.542	-33.560	     NA	     NA	     NA	     NA	     NA	     NA
+	Lens 2 Epoxy	 39.818	 63.116	-33.150	     NA	     NA	     NA	     NA	     NA	     NA
+	Lens 3 Epoxy	 39.500	 63.210	-33.150	     NA	     NA	     NA	     NA	     NA	     NA
+	Lens 4 Epoxy	 39.913	 61.542	-33.560	     NA	     NA	     NA	     NA	     NA	     NA
+	Bs 1 Epoxy	 14.810	 -8.870	  1.980	     NA	     NA	     NA	     NA	     NA	     NA
+	Bs 2 Epoxy	 14.810	 -8.870	  1.980	     NA	     NA	     NA	     NA	     NA	     NA
+	Pbs Epoxy	 14.810	 -8.870	  1.980	     NA	     NA	     NA	     NA	     NA	     NA
+	UV Explosure	  7.602	-15.000	 12.000	 13.000	     NA	     NA	     NA	     NA	     NA
+	Probe Down	     NA	     NA	     NA	     NA	     NA	  0.800	     NA	     NA	     NA
+	Probe UP	     NA	     NA	     NA	     NA	     NA	  6.000	     NA	     NA	     NA
+	Xfor Safe Move	-23.120	  4.813	-50.020	     NA	     NA	     NA	     NA	     NA	     NA
+	Yfor Safe Move	-23.120	  4.813	-50.020	     NA	     NA	     NA	     NA	     NA	     NA
+	Zfor Safe Move	-40.120	 40.000	-50.000	     NA	     NA	     NA	     NA	     NA	     NA
+	Zfor Check	-40.120	 40.000	-50.000	     NA	     NA	     NA	     NA	     NA	     NA
+	ManualLensPickup	-75.000	-29.000	-50.000	 10.000	 61.900	  5.000	  0.001	  0.000	  0.000
+	ManualLensAlign	-75.000	-29.000	-50.000	 10.000	 61.900	  5.000	  0.001	  0.000	  0.000
+	ManualLensEpoxy	-75.000	-29.000	-50.000	 10.000	 61.900	  5.000	  0.001	  0.000	  0.000
+	butt glue view	 42.400	 59.500	 33.500	100.000	  0.000	  3.900	  0.000	  0.000	  0.000
+	Beam Scan Near	     NA	     NA	     NA	100.000	     NA	     NA	     NA	     NA	     NA
+	Beam Scan Far	     NA	     NA	     NA	-100.000	     NA	     NA	     NA	     NA	     NA
+	Side Camera Epoxy View	 79.000	-25.000	-26.000	-99.800	  0.000	  0.000	  0.000	  0.000	  0.000
+	LENS Top Camera View	-66.000	  9.850	-39.000	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	PBS Top Camera View	-53.750	 10.420	-39.340	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	BS1 Top Camera View	-53.650	 23.610	-39.340	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	BS2 Top Camera View	-53.650	 17.530	-39.340	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	Chip Top Camera View	-45.800	 56.800	-12.500	-99.700	  0.000	  0.000	  0.000	  0.000	  0.000
+	BS Recheck Top Camera View	-42.800	 55.900	-13.000	-99.700	  0.000	  0.000	  0.000	  0.000	  0.000
+	Lens Pickup2	-66.000	  9.850	-13.230	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	side view tip	 79.000	-25.000	 11.200	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	Bottom View1	 79.000	-24.700	 39.934	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	Bottom View2	 78.020	-25.890	  2.700	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	BS1----- pickup	 32.646	 32.095	  1.860	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	BS1 Bott View	 79.000	-24.700	 38.634	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	Lens Bottom View	 79.000	-24.700	 39.284	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	BS Top Measure	-42.022	 56.235	-13.140	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	OMUX 1 Top Measure	-42.120	 56.135	-11.740	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	OMUX 2 Top Measure	-39.620	 57.635	-11.740	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	TEST1	 39.913	 63.542	-46.000	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	Lens Top view 1	-66.000	  9.850	-38.900	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+	Epoxy Bottom Camera View	 78.100	-26.100	  3.000	  0.000	  0.000	  0.000	  0.000	  0.000	  0.000
+    </ConfiguredPositions>
+    <HexapodConfiguredPositions>
+      Label	StageX	StageY	StageZ	BeamScanX	BeamScanY	BeamScanZ	AngleMain	AngleHexapod	ProbeClamp
+      Dummy	     NA	     NA	     NA	     NA	     NA	     NA	     NA	     NA	     NA
+      Load Unload	15.000	 15.000	 18.010	-50.000	     NA	     NA	     NA	     NA	     NA
+      Lens Pickup	15.000	 33.900	  6.400	  0.000	     NA	     NA	     NA	     NA	     NA
+      9501 Lens Pickup	15.000	 30.797	 35.040	     NA	     NA	     NA	  0.000	  0.000	  0.000
+      Top Camera View	15.000	 66.900	  5.600	     NA	     NA	     NA	     NA	     NA	     NA
+      Side Camera View	15.000	 -60.000	 -5.337	     NA	     NA	     NA	     NA	     NA	     NA
+    </HexapodConfiguredPositions>
+    <PartTray>
+	;Note that index is arranged from first column first row -&gt; first column last row -&gt;seond column -&gt; last column
+	;Part	= Lens,BS
+	;Columns = 3,4
+	;Rows	= 4,3
+	;Index	Xoffset	Yoffset
+	;first section for lens
+	1	0	0
+	2	0	-2.0
+	3	0	-4.0
+	4	0	-6.0
+	5	2.5	0
+	6	2.5	-2.0
+	7	2.5	-4.0
+	8	2.5	-6.0
+	9	5.0	0
+	10	5.0	-2.0
+	11	5.0	-4.0
+	48	5.0	-6.0
+	;next section for PBS
+	49	7.5	0
+	50	7.5	-2.5
+	51	7.5	-5.0
+	52	10.0	0
+	53	10.0	-2.5
+	54	10.0	-5.0
+	55	12.5	0
+	56	12.5	-2.5
+	57	12.5	-5.0
+	58	15.0	0
+	59	15.0	-2.5
+	60	15.0	-5.0
+	;next section for BS2
+	61	7.5	0
+	62	7.5	-2.5
+	63	7.5	-5.0
+	64	10.0	0
+	65	10.0	-2.5
+	66	10.0	-5.0
+	67	12.5	0
+	68	12.5	-2.5
+	69	12.5	-5.0
+	70	15.0	0
+	71	15.0	-2.5
+	72	15.0	-5.0
+	;next section for BS1
+	73	7.5	0
+	74	7.5	-2.5
+	75	7.5	-5.0
+	76	10.0	0
+	77	10.0	-2.5
+	78	10.0	-5.0
+	79	12.5	0
+	80	12.5	-2.5
+	81	12.5	-5.0
+	82	15.0	0
+	83	15.0	-2.5
+	84	15.0	-5.0
+      </PartTray>
+  </MotionTable>
+  <Lens1SafetyWindow>
+    <Xminus>	0.11	</Xminus>
+    <Xplus>	0.11	</Xplus>
+    <Yminus>	0.12	</Yminus>
+    <Yplus>	0.12	</Yplus>
+  </Lens1SafetyWindow>
+  <Lens2SafetyWindow>
+    <Xminus>	0.11	</Xminus>
+    <Xplus>	0.11	</Xplus>
+    <Yminus>	0.12	</Yminus>
+    <Yplus>	0.12	</Yplus>
+  </Lens2SafetyWindow>
+  <Lens3SafetyWindow>
+    <Xminus>	0.11	</Xminus>
+    <Xplus>	0.11	</Xplus>
+    <Yminus>	0.12	</Yminus>
+    <Yplus>	0.12	</Yplus>
+  </Lens3SafetyWindow>
+  <Lens4SafetyWindow>
+    <Xminus>	0.11	</Xminus>
+    <Xplus>	0.11	</Xplus>
+    <Yminus>	0.12	</Yminus>
+    <Yplus>	0.12	</Yplus>
+  </Lens4SafetyWindow>
+  <BS1SafetyWindow>
+    <Xminus>	0.2	</Xminus>
+    <Xplus>	0.2	</Xplus>
+    <Yminus>	0.2	</Yminus>
+    <Yplus>	0.2	</Yplus>
+  </BS1SafetyWindow>
+  <BS2SafetyWindow>
+    <Xminus>	0.2	</Xminus>
+    <Xplus>	0.2	</Xplus>
+    <Yminus>	0.25	</Yminus>
+    <Yplus>	0.25	</Yplus>
+  </BS2SafetyWindow>
+  <BS3SafetyWindow>
+    <Xminus>	0.2	</Xminus>
+    <Xplus>	0.2	</Xplus>
+    <Yminus>	0.2	</Yminus>
+    <Yplus>	0.2	</Yplus>
+  </BS3SafetyWindow>
+  <XpsIoTable>
+    <Note>
+	As we are using more parts. This is a new format different from OC8500/Apache
+	The data is comma separated, the first one is the port number, the second one is the channel number
+	Both numbers follows the user manual comvention. 
+	Because the line is 1 based in the manual, they are converted to 0 based bit number in software
+	In the example below, the connection is for GPIO1, Input 2 or Output 2
+	The input output is hardware type specific and software can delf identify
+        The key here matches the enum name in the software
+    </Note>
+    <Example>			1,2		</Example>
+    <DoorInterlock>		2,1		</DoorInterlock>
+    <EmergencyStop>		2,2		</EmergencyStop>
+    <LampRunning>		1,1		</LampRunning>
+    <LampFail>			1,2		</LampFail>
+    <LampStandby>		1,3		</LampStandby>
+    <CdaEpoxy>			4,2		</CdaEpoxy>
+    <CdaEx1>			4,1		</CdaEx1>
+    <CdaProbe>			4,3		</CdaProbe>
+    <CdaEx3>			4,4		</CdaEx3>
+    <VacuumMain>		4,5		</VacuumMain>
+    <VacuumHexapod>		4,6		</VacuumHexapod>
+    <VacuumPackage>		4,7		</VacuumPackage>
+    <VacuumEx2>			4,8		</VacuumEx2>
+    <VacuumMainReadback>	4,5	</VacuumMainReadback>
+    <VacuumHexapodReadback>	4,6		</VacuumHexapodReadback>
+    <VacuumPackageReadback>	4,7		</VacuumPackageReadback>
+    <VacuumOrCda>		4,9		</VacuumOrCda>
+    <VacuumReadingInput>	2,1		</VacuumReadingInput>
+    <VacuumReadingOutputLens>	2,2		</VacuumReadingOutputLens>
+    <VacuumReadingOutputBs>	2,3		</VacuumReadingOutputBs>
+    <CdaReadingInput>		2,4		</CdaReadingInput>
+    <EpoxyValve>		4,1		</EpoxyValve>
+    <note1>    
+    No spare out 1, it is used to trigger 7094DC valvemate
+    <SpareOutput1>		3,1		</SpareOutput1></note1>
+    <SpareOutput2>		3,2		</SpareOutput2>
+    <SpareOutput3>		3,3		</SpareOutput3>
+    <SpareOutput4>		3,4		</SpareOutput4>
+    <SpareOutput5>		3,5		</SpareOutput5>
+    <SpareOutput6>		3,6		</SpareOutput6>
+    <note2>
+    ;No spare input 1-3, they are vacuum line read back
+    ;<SpareInput1>		1,1		</SpareInput1>		
+    ;<SpareInput2>		1,2		</SpareInput2>		
+    ;<SpareInput3>		1,3		</SpareInput3></note2>
+    <SpareInput4>		1,4		</SpareInput4>
+    <SpareInput5>		1,5		</SpareInput5>
+    <SpareInput6>		1,6		</SpareInput6>
+    <SpareInput7>		1,7		</SpareInput7>
+    <SpareInput8>		1,8		</SpareInput8>
+  </XpsIoTable>
+  <Dummy>
+    <Note> 
+	This is used to separate softwre readonly (above) and softawre read/wrote (below) 
+    </Note>
+  </Dummy>
+  <LaserDiode>
+    <DefaultCurrent>85.00</DefaultCurrent>
+    <MinCurrent>20.00</MinCurrent>
+    <MaxCurrent>90.00</MaxCurrent>
+    <CurrentStep>2.50</CurrentStep>
+    <MinVoltage>1.25</MinVoltage>
+    <MaxCurrentError>10.0</MaxCurrentError>
+  </LaserDiode>
+  <BeamScan>
+    <Samples>5</Samples>
+    <SampleFrequency>10.0</SampleFrequency>
+    <SampleResolution>10.0</SampleResolution>
+    <Gain>5.0</Gain>
+  </BeamScan>
+  <LightSource1>
+    <Channel1>10</Channel1>
+    <Channel2>10</Channel2>
+  </LightSource1>
+  <LightSource2>
+    <Channel1>10</Channel1>
+    <Channel2>10</Channel2>
+  </LightSource2>
+  <ProbeClamp>
+    <Force>50</Force>
+    <Speed>50</Speed>
+    <OpenPosition>7.0</OpenPosition>
+  </ProbeClamp>
+  <VacuumCda>
+    <MinVacuumChange>20</MinVacuumChange>
+  </VacuumCda>
+  <Alignment>
+    <AngleCoef>10</AngleCoef>
+    <FocalLength>100.0</FocalLength>
+    <FocalLengthY>125.542432535635</FocalLengthY>
+    <FocalLengthZ>138.372969002953</FocalLengthZ>
+    <FocalLengthfineY>424.461155559154</FocalLengthfineY>
+    <FocalLengthfineZ>822.967239104335</FocalLengthfineZ>
+    <BeamScanXOffset>200.0</BeamScanXOffset>
+    <BeamScanXList>100.0, 50.0, 0.0, -50.0, -100.0</BeamScanXList>
+    <StageSpeed>0.5</StageSpeed>
+    <StageStepX>0.001</StageStepX>
+    <StageStepFineX>0.0001</StageStepFineX>
+    <StageStepXforEnergy>0.005</StageStepXforEnergy>
+    <StageStepFineXforEnergy>0.001</StageStepFineXforEnergy>
+    <MaxStageMoveX>0.2</MaxStageMoveX>
+    <MaxStageMoveY>0.2</MaxStageMoveY>
+    <MaxStageMoveZ>0.2</MaxStageMoveZ>
+    <MaxSteeringZ>100</MaxSteeringZ>
+    <MaxSteeringY>100</MaxSteeringY>
+    <MinPower>1.0</MinPower>
+    <MaxPower>3.0</MaxPower>
+    <MinX>-3.00000</MinX>
+    <MinY>-3.00000</MinY>
+    <MaxX>3.00000</MaxX>
+    <MaxY>3.00000</MaxY>
+    <MaxStageMoveAngle>1.3</MaxStageMoveAngle>
+    <PostEpoxyMaxMove>
+    </PostEpoxyMaxMove>
+    <PostEpoxyStepSize>
+    </PostEpoxyStepSize>
+  </Alignment>
+  <zTouchSense>
+    <Samples>2</Samples>
+    <ForceChangeThreshold>25.0</ForceChangeThreshold>
+    <Velocity>2.5</Velocity>
+    <StepSize>0.0050</StepSize>
+    <MaxMove>0.11</MaxMove>
+    <BondLineBS>0.0100</BondLineBS>
+    <BondLineLensMin>0.0100</BondLineLensMin>
+    <BondLineLensMax>0.120</BondLineLensMax>
+    <GapForPartPickup>0.1</GapForPartPickup>
+    <GapForApplyEpoxy>0.1</GapForApplyEpoxy>
+    <GapForOther>0.1</GapForOther>
+  </zTouchSense>
+  <zSlowMove>
+    <StepCount>10</StepCount>
+    <StepDelay>100</StepDelay>
+    <StepSize>0.0100</StepSize>
+    <Velocity>1.5000</Velocity>
+  </zSlowMove>
+  <ArmTable>
+    <Note>
+      ip
+      Do not change the name of the Axis! It matches those in the software.
+    </Note>
+    <AutoSpeed>  10.0  </AutoSpeed>
+    <CoSTray>
+	Label           	 X  Y  Z	A	B C
+	1                                	385.000	  0.000	140.000	-179.000	 -5.000	     NA
+	2                                	-27.350	 91.040	 14.400	153.320	  0.000	  0.000
+	3                                	-47.350	 91.240	 14.300	153.320	  0.000	  0.000
+	4                                	-67.350	 91.240	 13.800	153.320	  0.000	  0.000
+	5                                	 -7.350	101.240	 14.600	153.320	  0.000	  0.000
+	6                                	-27.350	101.240	 14.200	153.320	  0.000	  0.000
+	7                                	-47.350	101.340	 14.000	153.320	  1.990	  0.000
+	8                                	-67.350	101.340	 13.800	153.320	  1.900	  0.000
+	9                                	 -7.350	111.340	 14.500	153.320	  1.900	  0.000
+	10                               	-27.350	111.340	 14.300	153.320	  1.900	  0.000
+	11                               	-47.350	111.340	 14.000	153.320	  1.900	  0.000
+	12                               	-67.350	111.340	 13.700	153.320	  1.900	  0.000
+    </CoSTray>
+    <CoSFGTray>
+	Label           	 X  Y  Z	A	B C
+	1                                	 -7.000	126.000	 14.000	153.320	  0.000	     0.000
+	2                                	-27.000	126.000	 14.000	153.320	 -0.370	     0.000
+	3                                	-47.000	126.000	 14.000	153.320	 -0.370	     0.000
+	4                                	-67.000	126.000	 14.000	153.320	 -0.370	     0.000
+	5                                	 -7.000	137.000	 14.000	153.320	 -0.370	     0.000
+	6                                	-27.000	137.000	 14.000	153.320	 -0.370	     0.000
+	7                                	-47.000	137.000	 14.000	153.320	 -0.370	     0.000
+	8                                	-67.000	137.000	 14.000	153.320	 -0.370	     0.000
+	9                                	 -7.000	146.000	 14.000	153.320	 -0.370	     0.000
+	10                               	-27.000	146.000	 14.000	153.320	 -0.370	     0.000
+	11                               	-47.000	146.000	 14.000	153.320	 -0.370	     0.000
+	12                               	-67.000	146.000	 14.000	153.320	 -0.370	     0.000
+	    </CoSFGTray>
+    <CoSDiscardTray>
+	Label           	 X  Y  Z	A	B C
+	1                                	 -7.000	160.000	 14.000	153.320	 -0.370	     0.000
+	2                                	-27.000	160.000	 14.000	153.320	 -0.370	     0.000
+	3                                	-47.000	160.000	 14.000	153.320	 -0.370	     0.000
+	4                                	-67.000	160.000	 14.000	153.320	 -0.370	     0.000
+	    </CoSDiscardTray>
+    <ConfiguredPositions>
+	Label           	 X  Y  Z	A	B C
+	Robot Pickup Position            	 -7.060	 91.400	 14.340	153.320	  0.000	     0.000
+	Robot Loadready Position         	173.440	 32.700	 32.900	153.320	  3.290	     0.000
+	Robot Load Position              	173.440	 12.500	 33.900	153.320	  0.000	     0.000
+	Robot Unloadready Position       	173.740	 12.700	  0.000	153.320	  3.290	     0.000
+	Robot Unload Position            	173.740	 12.000	 34.800	153.320	  3.220	     0.000
+	Robot Place Position             	 76.388	-72.777	-20.175	  6.000	  7.000	     0.000
+	Robot Throw Position             	 76.388	-72.777	-20.175	  6.000	  7.000	     0.000
+	Robot Safty Position             	-113.560	131.240	  0.000	155.350	  0.000	     0.000
+    </ConfiguredPositions>
+  </ArmTable>
+  <GoldImage>
+    <EpoxyView>0.129000,0.386000,0.678000</EpoxyView>
+    <PackageView>0.129000,0.386000,0.678000</PackageView>
+  </GoldImage>
+</BlackHawkParameter.xml>
